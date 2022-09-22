@@ -20,7 +20,7 @@
   display: flex;
 }
 
-.time {
+.bar > p {
   width: 54px;
   height: 16px;
   margin-top: 16px;
@@ -34,7 +34,7 @@
   letter-spacing: -0.28px;
 }
 
-.network > img {
+.mobile_network {
   width: 17px;
   height: 10.67px;
   margin-left: 218.67px;
@@ -42,7 +42,7 @@
   margin-top: 17.67px;
 }
 
-.wifi > img {
+.mobile_wifi {
   width: 15.27px;
   height: 10.97px;
   margin-top: 17.33px;
@@ -50,7 +50,7 @@
   color: #000;
 }
 
-.battery > img {
+.mobile_battery {
   width: 24.33px;
   height: 11.33px;
   margin-left: 5.03px;
@@ -58,7 +58,7 @@
   border-radius: 1.33333px;
 }
 
-.myLogo {
+header {
   width: 375px;
   height: 44px;
   display: flex;
@@ -74,6 +74,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
   color: #6070ff;
 }
 
@@ -97,6 +98,7 @@
   margin-left: 24px;
   font-weight: 700;
   font-size: 30px;
+  color: #172b4d;
   line-height: 52px;
   font-family: 'poppins', sans-serif;
 }
@@ -105,7 +107,7 @@
   width: 327px;
   height: 146px;
   margin-left: 24px;
-  margin-top: 12px;
+  margin-top: 24px;
   font-family: 'poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -131,40 +133,42 @@
   color: #7f8cff;
 }
 
-.links {
+ul {
   display: flex;
   width: 170.17px;
   height: 20px;
   margin-left: 24px;
   margin-top: 12px;
+  list-style: none;
 }
 
-.twitter > img {
+.twitter {
   width: 19.99px;
   height: 19.96px;
+  margin-left: -40px;
 }
 
-.linkedIn > img {
+.linkedIn {
   height: 20px;
   width: 20px;
-  margin-left: 19.01px;
+  margin-left: -5px;
 }
 
-.M > img {
+.m {
   width: 20px;
   height: 16px;
   margin-left: 20px;
-  margin-top: 1px;
+  margin-top: 2px;
 }
 
-.github > img {
+.github {
   width: 17.99px;
   height: 20px;
   margin-left: 20px;
 }
 
-.ok > img {
+.ok {
   width: 14.17px;
   height: 20px;
-  margin-left: 10.1px;
+  margin-left: 19.01px;
 }
