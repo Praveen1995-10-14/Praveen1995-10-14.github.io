@@ -18,10 +18,8 @@
 
 header {
   width: 327px;
-  height: 44px;
   display: flex;
   padding-top: 44px;
-  margin-left: 0px;
   height: 587.15px;
 }
 
@@ -65,8 +63,8 @@ header {
 }
 
 .intro > h1 {
-  padding-top: 0px;
-  margin-top: 0px;
+  padding-top: 1px;
+  margin-top: 1px;
 }
 
 .description {
