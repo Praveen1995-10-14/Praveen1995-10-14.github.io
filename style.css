@@ -21,13 +21,15 @@ header {
   height: 44px;
   display: flex;
   padding-top: 44px;
+  margin-left: 0px;
+  height: 587.15px;
 }
 
 .logo {
   width: 76px;
   height: 20px;
   margin-top: 4px;
-  margin-left: 24px;
+  margin-left: 12px;
   text-align: center;
   font-family: 'poppins', sans-serif;
   font-weight: 700;
@@ -50,13 +52,6 @@ header {
   margin: auto;
 }
 
-header {
-  width: 375px;
-  margin-top: 12px;
-  margin-left: -2px;
-  height: 587.15px;
-}
-
 .intro {
   width: 327px;
   height: 144px;
@@ -75,9 +70,8 @@ header {
 }
 
 .description {
-  width: 327px;
+  width: 81%;
   height: 146px;
-  padding-left: 0px;
   margin-left: 12px;
   margin-top: 24px;
   font-family: 'poppins', sans-serif;
@@ -86,6 +80,7 @@ header {
   line-height: 24px;
   font-style: normal;
   color: #344563;
+  margin-bottom: 24px;
 }
 
 .description > p {
@@ -96,12 +91,13 @@ header {
   width: 117px;
   height: 24px;
   margin-left: 24px;
-  margin-top: 12px;
+  margin-top: 22px;
   font-family: 'poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   font-style: normal;
+  padding-top: 12px;
   color: #7f8cff;
 }
 
@@ -110,7 +106,7 @@ ul {
   width: 170.17px;
   height: 20px;
   margin-left: 24px;
-  margin-top: 12px;
+  margin-top: 5px;
   list-style: none;
 }
 
