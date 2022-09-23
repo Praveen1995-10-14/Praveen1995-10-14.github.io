@@ -1,7 +1,14 @@
 #container {
   width: 375px;
   height: 5410px;
-  background-color: #f7f7f9;
+}
+
+.bg_image {
+  background-image: url(./Images/header/header.png);
+  position: absolute;
+  width: 462px;
+  height: 587.15px;
+  top: 104px;
 }
 
 #template1 {
@@ -9,59 +16,11 @@
   height: 718px;
 }
 
-.toolbar {
-  width: 375px;
-  height: 92px;
-}
-
-.bar {
-  width: 375px;
-  height: 44px;
-  display: flex;
-}
-
-.bar > p {
-  width: 54px;
-  height: 16px;
-  margin-top: 16px;
-  margin-left: 21px;
-  font-family: 'poppins', sans-serif;
-  font-weight: 500;
-  text-align: center;
-  font-size: 14px;
-  line-height: 16.41px;
-  color: #000;
-  letter-spacing: -0.28px;
-}
-
-.mobile_network {
-  width: 17px;
-  height: 10.67px;
-  margin-left: 218.67px;
-  color: #000;
-  margin-top: 17.67px;
-}
-
-.mobile_wifi {
-  width: 15.27px;
-  height: 10.97px;
-  margin-top: 17.33px;
-  margin-left: 5.03px;
-  color: #000;
-}
-
-.mobile_battery {
-  width: 24.33px;
-  height: 11.33px;
-  margin-left: 5.03px;
-  margin-top: 17.33px;
-  border-radius: 1.33333px;
-}
-
 header {
-  width: 375px;
+  width: 327px;
   height: 44px;
   display: flex;
+  padding-top: 44px;
 }
 
 .logo {
@@ -82,20 +41,27 @@ header {
   width: 18px;
   height: 12px;
   margin-top: 6px;
-  margin-left: 223px;
+  margin-left: 190px;
 }
 
-.bg_image {
+.background_image {
   height: 10px;
   width: 375px;
   margin: auto;
 }
 
+header {
+  width: 375px;
+  margin-top: 12px;
+  margin-left: -2px;
+  height: 587.15px;
+}
+
 .intro {
   width: 327px;
   height: 144px;
-  margin-top: 84px;
-  margin-left: 24px;
+  margin-top: -450px;
+  margin-left: 12px;
   font-weight: 700;
   font-size: 30px;
   color: #172b4d;
@@ -103,10 +69,16 @@ header {
   font-family: 'poppins', sans-serif;
 }
 
+.intro > h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .description {
   width: 327px;
   height: 146px;
-  margin-left: 24px;
+  padding-left: 0px;
+  margin-left: 12px;
   margin-top: 24px;
   font-family: 'poppins', sans-serif;
   font-weight: 400;
@@ -117,7 +89,7 @@ header {
 }
 
 .description > p {
-  margin-top: 12px;
+  padding-right: 12px;
 }
 
 .connect > h3 {
