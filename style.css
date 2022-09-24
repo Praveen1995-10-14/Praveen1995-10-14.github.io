@@ -292,7 +292,7 @@ ul {
   color: #4b5975;
 }
 
-.progm_skills{
+.progm_skills {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -308,14 +308,10 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  margin-left: 44px;
   letter-spacing: 0.03em;
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-}
-
-.skill_list1>button {
   margin-left: -110%;
   margin-top: 4px;
 }
@@ -326,14 +322,10 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  margin-left: 44px;
   letter-spacing: 0.03em;
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-}
-
-.skill_list2 > button {
   margin-left: -89%;
   margin-top: 4px;
 }
@@ -344,14 +336,10 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  margin-left: 44px;
   letter-spacing: 0.03em;
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-}
-
-.skill_list3 > button {
   margin-left: -29%;
   margin-top: 4px;
 }
@@ -364,8 +352,6 @@ ul {
   padding-left: -12px;
   text-align: center;
 }
-
-
 
 .seeProj > button {
   margin-top: 12px;
