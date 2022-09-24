@@ -168,7 +168,7 @@ ul {
 #work_1 {
   display: grid;
   height: 552px;
-  width: 80%;
+  width: 327px;
   margin-left: 0.1px;
   margin-top: 88px;
 }
@@ -197,16 +197,19 @@ ul {
   margin-top: 88px;
 }
 
-.a {
+.project {
   height: 220px;
-  width: 70%;
+  width: 327px;
   margin-top: 16px;
-  margin-left: 2px;
+  margin-left: 24px;
   border-radius: 8px;
-  background-color: #172b4d;
 }
 
-.b {
+.project > img {
+  width: 80%;
+}
+
+.project_detail {
   height: 36px;
   width: 90%;
   font-family: 'Poppins', sans-serif;
@@ -214,16 +217,17 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin-left: 2px;
+  margin-left: 24px;
   margin-top: 12px;
   color: #172b4d;
 }
 
-.c {
+.job_detail {
   width: 80%;
   height: 32px;
   top: 48px;
   gap: 12px;
+  padding-left: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -271,15 +275,15 @@ ul {
   color: #7a869a;
 }
 
-.d {
+.read {
   width: 295px;
   height: 76px;
   top: 92px;
-  margin-left: 2px;
+  margin-left: 24px;
   margin-top: 20px;
 }
 
-.d > p {
+.read > p {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -288,83 +292,100 @@ ul {
   color: #4b5975;
 }
 
-.e {
+.progm_skills{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 203px;
   height: 24px;
-  top: 180px;
-  display: flex;
-  margin-left: 2px;
-  text-align: center;
-  gap: 8px;
+  margin-top: 12px;
+  padding-left: 14px;
 }
 
-.one {
-  text-align: center;
-  padding: 4px 12px;
-  width: 53px;
-  height: 24px;
-  background: #ebebff;
-  border-radius: 8px;
-  border-color: #ebebff;
-}
-
-.one:hover {
-  color: saddlebrown;
-  background-color: palegreen;
-}
-
-.two:hover {
-  color: saddlebrown;
-  background-color: palegreen;
-}
-
-.three:hover {
-  color: saddlebrown;
-  background-color: palegreen;
-}
-
-.e > button {
+.skill_list1 > button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  margin-left: 44px;
   letter-spacing: 0.03em;
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
 }
 
-.f {
-  width: 124px;
+.skill_list1>button {
+  margin-left: -110%;
+  margin-top: 4px;
+}
+
+.skill_list2 > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 44px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  border-color: #ebebff;
+}
+
+.skill_list2 > button {
+  margin-left: -89%;
+  margin-top: 4px;
+}
+
+.skill_list3 > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 44px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  border-color: #ebebff;
+}
+
+.skill_list3 > button {
+  margin-left: -29%;
+  margin-top: 4px;
+}
+
+.seeProj {
+  width: 162px;
   height: 48px;
   margin-top: 12px;
   border-radius: 8px;
-  margin-left: 2px;
+  padding-left: -12px;
   text-align: center;
 }
 
-.f:hover {
-  background-color: aqua;
-}
 
-.f > button {
+
+.seeProj > button {
   margin-top: 12px;
   font-size: 17px;
   font-family: 'poppins', sans-serif;
   line-height: 24px;
   font-weight: 500;
   color: #396df2;
-  border: none;
+  border: 1px solid#6070ff;
+  border-radius: 8px;
   background-color: white;
 }
 
 /* about myself */
 
 #about {
-  width: 375px;
+  width: 327px;
   height: 1263px;
   margin-top: 114px;
+  padding-left: 24px;
 }
 
 #box1 {
@@ -474,10 +495,6 @@ ul {
   border-color: #6070ff;
 }
 
-button:hover {
-  background-color: #000;
-}
-
 #box2 {
   width: 327px;
   height: 464.15px;
@@ -511,25 +528,42 @@ button:hover {
   margin-left: 15px;
 }
 
-.languages {
+.prom_languages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
   width: 327px;
   height: 248.15px;
-  border-radius: 8px;
-  margin-top: 12px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 327px;
+  height: 248.15px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .languages > img {
   width: 48px;
-  height: 48px;
+  height: 88px;
   margin-top: 9px;
-  margin-left: 12px;
+  padding-left: 12px;
 }
 
 .js {
   display: flex;
   width: 303px;
   height: 66.72px;
-  margin-top: 36px;
+  padding-top: 12px;
+  margin-left: -30%;
   border-radius: 8px;
   background-color: #f9f9f9;
 }
@@ -543,6 +577,7 @@ button:hover {
   width: 303px;
   height: 66.72px;
   margin-top: 30.72px;
+  margin-left: -30%;
   background-color: #f9f9f9;
   border-radius: 8px;
 }
@@ -554,6 +589,7 @@ button:hover {
 .css {
   display: flex;
   width: 303px;
+  margin-left: -30%;
   height: 66.72px;
   margin-top: 30.72px;
   background-color: #f9f9f9;
@@ -622,7 +658,7 @@ button:hover {
 /* footer */
 footer {
   height: 789px;
-  width: 327px;
+  width: 375px;
   margin-top: 213.85px;
   background-image: url(images/header/footer_background.jpg);
 }
@@ -630,7 +666,7 @@ footer {
 footer > .lazy {
   width: 801px;
   height: 56px;
-  margin-left: -85%;
+  margin-left: -75%;
   padding-top: 103px;
   font-family: 'poppins', sans-serif;
   line-height: 52px;
@@ -676,9 +712,4 @@ button[type=submit] {
   font-weight: 500;
   font-family: 'poppins', sans-serif;
   background-color: #fff;
-}
-
-button[type=submit]:hover {
-  background-color: #000;
-  zoom: 150%;
 }
