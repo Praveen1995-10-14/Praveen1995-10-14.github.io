@@ -344,15 +344,6 @@ ul {
   margin-top: 4px;
 }
 
-.seeProj {
-  width: 162px;
-  height: 48px;
-  margin-top: 12px;
-  border-radius: 8px;
-  padding-left: -12px;
-  text-align: center;
-}
-
 .seeProj > button {
   margin-top: 12px;
   font-size: 17px;
@@ -363,6 +354,20 @@ ul {
   border: 1px solid#6070ff;
   border-radius: 8px;
   background-color: white;
+}
+
+.seeProj {
+  width: 162px;
+  height: 48px;
+  margin-top: 12px;
+  border-radius: 8px;
+  padding-left: -12px;
+  text-align: center;
+}
+
+.seeProj > button:hover {
+  background-color: #396df2;
+  color: white;
 }
 
 /* about myself */
@@ -475,10 +480,16 @@ ul {
   border-radius: 8px;
   margin-top: 12px;
   color: #6070ff;
+  background-color: white;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   text-align: center;
   border-color: #6070ff;
+}
+
+.box:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 #box2 {
