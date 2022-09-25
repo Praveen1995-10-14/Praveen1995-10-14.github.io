@@ -1,0 +1,140 @@
+#container {
+  width: 375px;
+  height: 5410px;
+}
+
+.bg_image {
+  background-image: url(./Images/header/header.png);
+  position: absolute;
+  width: 462px;
+  height: 587.15px;
+  top: 104px;
+}
+
+#template1 {
+  width: 375px;
+  height: 718px;
+}
+
+header {
+  width: 327px;
+  display: flex;
+  padding-top: 44px;
+  height: 587.15px;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  margin-top: 4px;
+  margin-left: 12px;
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #6070ff;
+}
+
+.Union {
+  width: 18px;
+  height: 12px;
+  margin-top: 6px;
+  margin-left: 190px;
+}
+
+.background_image {
+  height: 10px;
+  width: 375px;
+  margin: auto;
+}
+
+.intro {
+  width: 327px;
+  height: 144px;
+  margin-top: -450px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #172b4d;
+  line-height: 52px;
+  font-family: 'poppins', sans-serif;
+}
+
+.intro > h1 {
+  padding-top: 1px;
+  margin-top: 1px;
+}
+
+.description {
+  width: 81%;
+  height: 146px;
+  margin-left: 12px;
+  margin-top: 24px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  color: #344563;
+  margin-bottom: 24px;
+}
+
+.description > p {
+  padding-right: 12px;
+}
+
+.connect > h3 {
+  width: 117px;
+  height: 24px;
+  margin-left: 24px;
+  margin-top: 22px;
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-style: normal;
+  padding-top: 12px;
+  color: #7f8cff;
+}
+
+ul {
+  display: flex;
+  width: 170.17px;
+  height: 20px;
+  margin-left: 24px;
+  margin-top: 5px;
+  list-style: none;
+}
+
+.twitter {
+  width: 19.99px;
+  height: 19.96px;
+  margin-left: -40px;
+}
+
+.linkedIn {
+  height: 20px;
+  width: 20px;
+  margin-left: -5px;
+}
+
+.m {
+  width: 20px;
+  height: 16px;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.github {
+  width: 17.99px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.ok {
+  width: 14.17px;
+  height: 20px;
+  margin-left: 19.01px;
+}
