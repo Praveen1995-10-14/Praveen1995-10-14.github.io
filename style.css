@@ -1180,6 +1180,10 @@ ul {
   color: white;
 }
 
+.seeProj > button {
+  transform: scale(1,2);
+  transform: rotate(360deg);
+}
 
 #work_2 {
   width: 1156px;
@@ -1297,8 +1301,7 @@ ul {
   color: #6070ff;
 }
 
-
-
+.rubyOnRail 
 
 .skill_list2 > button {
   height: 24px;
