@@ -229,9 +229,6 @@ ul {
   border-radius: 8px;
 }
 
-.project > img {
-  width: 80%;
-}
 
 .a{
   display: none;
@@ -249,6 +246,11 @@ ul {
   display: none;
 }
 
+.tonic {
+  width: 80%;
+  margin-left: 12px;
+}
+
 .project_detail {
   height: 36px;
   width: 90%;
@@ -262,7 +264,49 @@ ul {
   color: #172b4d;
 }
 
+.project_detail_3 {
+  height: 36px;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 24px;
+  margin-top: 12px;
+  color: #172b4d;
+}
+
+.Job_2 {
+  display: none;
+}
+
+.yrs {
+  display: none;
+}
+
+.read_3 {
+  display: none;
+}
+
+.project_detail3 {
+  display: none;
+}
+
 .job_detail {
+  width: 80%;
+  height: 32px;
+  top: 48px;
+  gap: 12px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 2px;
+}
+
+.job_detail2 {
   width: 80%;
   height: 32px;
   top: 48px;
@@ -315,6 +359,17 @@ ul {
   height: 16px;
 }
 
+.Job {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.9px;
+  line-height: 16px;
+  color: #7a869a;
+  width: 88px;
+  height: 16px;
+}
+
 .fb {
   display: none;
 }
@@ -332,6 +387,21 @@ ul {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
+}
+
+.yr {
+  width: 29px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.read_4 {
+  display: none;
 }
 
 .read {
@@ -402,6 +472,55 @@ ul {
   margin-left: -29%;
   margin-top: 4px;
 }
+
+.rubyOnRail {
+  display: none;
+}
+
+.skill_list11 > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  border-color: #ebebff;
+  margin-left: -80%;
+  margin-top: 4px;
+}
+
+.skill_list21 > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  border-color: #ebebff;
+  margin-left: -69%;
+  margin-top: 4px;
+}
+
+.skill_list31 > button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border-radius: 8px;
+  border-color: #ebebff;
+  margin-left: -29%;
+  margin-top: 4px;
+}
+
+
+
 
 .seeProj > button {
   margin-top: 12px;
@@ -1036,7 +1155,7 @@ ul {
   height: 40px;
   display: flex;
   margin-left: 24px;
-  margin-top: -10%;
+  margin-top: 12px;
   gap: 12px;
   border: 1px solid teal;
 }
@@ -1101,12 +1220,11 @@ ul {
 .progm_skills {
   width: 203px;
   height: 24px;
-  margin-left: 24px;
+  margin-left: 5px;
   gap: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px solid black;
 }
 
 
@@ -1120,7 +1238,7 @@ ul {
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-  margin-left: -80%;
+  margin-left: -50%;
   margin-top: 4px;
 }
 
@@ -1134,7 +1252,7 @@ ul {
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-  margin-left: -89%;
+  margin-left: -49%;
   margin-top: 4px;
 }
 
@@ -1148,7 +1266,7 @@ ul {
   color: #6070ff;
   border-radius: 8px;
   border-color: #ebebff;
-  margin-left: -29%;
+  margin-left: -19%;
   margin-top: 4px;
 }
 
@@ -1218,6 +1336,23 @@ ul {
   display: none;
 }
 
+.project_detail_3 {
+  display: none;
+}
+
+.mob {
+  display: none;
+}
+
+.job_detail2 {
+  width: 297px;
+  height: 40px;
+  display: flex;
+  margin-left: 24px;
+  margin-top: -21px;
+  gap: 12px;
+  border: 1px solid teal;
+}
 
 .fb {
   height: 24px;
@@ -1253,11 +1388,11 @@ ul {
   color: #c1c7d0;
 }
 
-.read2 {
+.read {
   width: 496px;
   height: 70px;
   margin-left: 24px;
-  margin-top: -22px;
+  margin-top: 32px;
   font-family: 'poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1270,25 +1405,16 @@ ul {
   margin-top: 0.1px;
 }
 
-.progm_skills {
-  width: 316px;
-  height: 24px;
-  margin-left: 24px;
-  margin-top: 24px;
-  gap: 8px;
-  display: flex;
-  align-items: center;
-  border: 1px solid rebeccapurple;
-}
 
-.skill_list1 > button {
+
+.skill_list11 > button {
   width: 53px;
   height: 24px;
   border-radius: 8px;
   border-color: #93a3bd;
   padding: 4px, 12px;
-  margin-left: -38px;
-  margin-top: 4px;
+  margin-left: -15px;
+  margin-top: 18px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -1297,19 +1423,16 @@ ul {
   color: #6070ff;
 }
 
-
-
-
-.skill_list2 > button {
+.skill_list21 > button {
   height: 24px;
-  width: 105px;
+  width: 85px;
   margin-left: 8px;
   background-color: #ebebff;
   border-radius: 8px;
   border-color: #93a3bd;
   padding: 4px, 12px;
   margin-left: 8px;
-  margin-top: 4px;
+  margin-top: 18px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -1318,14 +1441,14 @@ ul {
   color: #6070ff;
 }
 
-.skill_list3 > button {
+.skill_list31 > button {
   margin-left: 8px;
   background-color: #ebebff;
   border-radius: 8px;
   border-color: #93a3bd;
   padding: 4px, 12px;
   margin-left: 8px;
-  margin-top: 4px;
+  margin-top: 18px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -1334,14 +1457,15 @@ ul {
   color: #6070ff;
 }
 
-.skill_list2_4 > button {
+.rubyOnRail > button {
   margin-left: 8px;
+  width: 101px;
+  height: 26px;
   background-color: #ebebff;
   border-radius: 8px;
   border-color: #93a3bd;
-  padding: 4px, 12px;
-  margin-left: 6px;
-  margin-top: 4px;
+  margin-left: 8px;
+  margin-top: 18px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 12px;
@@ -1360,6 +1484,32 @@ ul {
   border: 2px solid #a7aeff;
 }
 
+.project_detail3 {
+  width: 496px;
+  height: 46px;
+  margin-left: 24px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.Job_2 {
+  width: 152px;
+  height: 24px;
+  padding-top: 8px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: #6b778c;
+  margin-top: 8px;
+  margin-left: 12px;
+  font-size: 12.2px;
+  margin:0.1px;
+}
+
 #work_4 {
   width: 1156px;
   height: 496px;
@@ -1370,6 +1520,9 @@ ul {
   border: 2px solid #a7aeff;
 }
 
+.yr {
+  display: none;
+}
 .tonic {
   display: none;
 }
